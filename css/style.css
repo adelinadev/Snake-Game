@@ -1,0 +1,52 @@
+canvas{
+    background-color: black;
+}
+.container {
+    margin: 0 auto;
+    width: 315px;
+    border: 1px solid red;
+}
+#board{
+    border-radius: 8px 8px 0 0;
+}
+#board, .controller{
+    border: 6px solid blue;
+}
+.controller {
+    margin-top: -5px;
+    text-align: center;
+    padding-bottom: 32px;
+    border-top: none;
+    border-radius: 0 0  8px 8px;
+    background-color: orange;
+}
+.controller button {
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.clear{
+    clear: both;
+}
+
+#left{
+    margin-right: 85px;
+}
+
+.score{
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    margin: 4px 8px;
+    font-size: 0.8em;
+    padding: 6px 0 8px 0;
+}
+.title{
+    background-color: blue;
+    margin: 0;
+    padding: 3px 0;
+    color: white;
+    margin-top: -8px;
+}
